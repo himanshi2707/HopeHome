@@ -1,0 +1,489 @@
+body {
+  font-size: 16px;
+  color: #FFCB9A ;
+  background-color: #2C3531 ;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+  background-color: #116466;
+  border-radius: 0;
+  border: 0;
+}
+#logo-img {
+  background: url('../images/Final LOGO PNG Format.png') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+}
+
+
+.container2 {
+        
+        display: inline-flex;
+      }
+
+a{
+  color:#D1E8E2;
+  text-decoration: none;
+}
+
+a:hover{
+  color:#D1E8E2;
+}
+
+  
+.text {
+  margin-left: 0px;
+  margin-top: 18px;
+  font-size: 25px;
+  color: #D1E8E2;
+
+}    
+
+
+.textdev {
+  margin-left: 5px;
+  margin-top:10px;
+  margin-bottom: 25px;
+  font-size: 15px;
+  color: #D1E8E2;
+  text-align: justify;
+}
+
+#email-img {
+  background: url('../images/email.png') no-repeat;
+  width: 60px;
+  height: 50px;
+  margin: 20px;
+  margin-bottom: 25px;
+  border: 2px solid #116466;
+
+}
+
+
+
+
+
+#whatsapp-img {
+  background: url('../images/whatsapp.jpg') no-repeat;
+  width: 60px;
+  height: 50px;
+  margin: 20px;
+  margin-bottom: 25px;
+  border: 2px solid #116466;
+}
+
+#instagram-img {
+  background: url('../images/instagram.jpg') no-repeat;
+  width: 60px;
+  height: 50px;
+  margin: 20px;
+  margin-bottom: 25px;
+  border: 2px solid #116466;
+
+}
+
+#location-img {
+  background: url('../images/location.jpg') no-repeat;
+  width: 60px;
+  height: 50px;
+  margin: 20px;
+  margin-bottom: 25px;
+  border: 2px solid #116466;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { 
+  font-family: 'Lora', serif;
+  color: #FFCB9A;
+  font-size: 2.2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a{
+  background-color: #2C3531;
+}
+
+.navbar-brand p { /*student logo */
+  color: #D1E8E2;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 25px;
+}
+.navbar-brand p span { 
+  vertical-align: middle;
+}
+
+
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list a {
+  color: #FFCB9A;
+  text-align: center;
+
+}
+#nav-list a:hover {
+  background: #1CA6A9;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#phone {
+  margin-top: 5px;
+}
+#phone a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+}
+#phone div { /* We Deliver*/ 
+  color: #557c3e;
+  text-align: right;
+  padding-right: 15px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #D1E8E2;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-bottom: 15px;
+}
+.container .jumbotron {
+  box-shadow: 0 0 50px #3F0C1F;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center
+  
+
+}
+
+
+#texthere {
+  
+  padding: 50px;
+  background-color: #116466;
+  color: #D1E8E2;
+}
+h4 {
+  font-family: 'Lora', serif;
+  text-align: center;
+  font-size: 40px;
+  color: #FFCB9A;
+
+}
+h2 {
+  font-size: 40px;
+  text-align: center;
+  color: #FFCB9A;
+  
+}
+
+h3 {
+  text-align: justify;
+}
+
+h5 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+#aboutcontent {
+  padding: 50px;
+  background-color: #116466;
+  color: #D1E8E2;
+}
+
+
+
+
+#aboutus-tile, #contact-tile, #team-tile{
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #116466;
+  overflow: hidden;
+}
+
+#dev1-tile, #dev2-tile, #dev3-tile {
+  height: 380px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 3px solid #116466;
+  overflow: hidden;
+}
+#aboutus-tile:hover, #contact-tile:hover, #team-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#aboutus-tile {
+  background: url('../images/aboutus.jpg') no-repeat;
+  background-position: center;
+}
+#contact-tile {
+  background: url('../images/contact.jpg') no-repeat;
+  background-position: center;
+}
+
+#team-tile {
+  background: url('../images/team.jpg') no-repeat;
+  background-position: center;
+}
+
+#dev1-tile{
+  background: url('../images/himanshi.jpg') no-repeat;
+  background-position: center;
+}
+#dev2-tile{
+  background: url('../images/dev2.png') no-repeat;
+  background-position: center;
+}
+#dev3-tile{
+  background: url('../images/dev3.png') no-repeat;
+  background-position: center;
+}
+
+
+#aboutus-tile span, #contact-tile span, #team-tile span,
+ #dev1-tile span, #dev2-tile span, #dev3-tile span 
+ {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #116466;
+  color: #D1E8E2;
+  opacity: ;
+}
+
+
+{box-sizing: border-box;}
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup chat - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+
+/********** Large devices only *********/
+@media (min-width: 1200px) {
+  .container .jumbotron {
+    background: url('../images/back1200.jpg') no-repeat;
+    height: 675px;
+  }
+}
+.text{
+  margin-top: 12px;
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  #logo-img {
+    background: url('../images/logomedium.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+
+  .container .jumbotron {
+    background: url('../images/back992.jpg') no-repeat;
+    height: 558px;
+  }
+}
+.text{
+  margin-top: 12px;
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  
+   .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+
+  .container .jumbotron {
+    background: url('../images/back768.jpg') no-repeat;
+    height: 432px;
+
+  }
+
+  #aboutus-tile, #contact-tile, #team-tile, #dev1-tile, #dev2-tile, #dev3-tile{
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+
+  .text {
+    font-size: 20px;
+  }
+
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /*  name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* iiitb */
+    font-size: .6em;
+    margin-top: 20px;
+  }
+  .navbar-brand p span { /* Star-K */
+    height: 13px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+
+  }
+
+  #aboutus-tile, #contact-tile, #team-tile, #dev1-tile, #dev2-tile, #dev3-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+}
+
+.text {
+  
+  font-size: 15px;
+  }
+
+  /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+  @media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */
+  
+  /* Home page */
+  #aboutus-tile, #contact-tile,#team-tile, #dev1-tile, #dev2-tile, #dev3-tile{
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+
+  .text {
+    margin-top: 20px;
+    font-size: 10px;
+  }
+}
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #116466;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+
+
+
+
