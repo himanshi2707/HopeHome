@@ -174,12 +174,29 @@ a:hover{
 }
 
 
+.container .jumbotron .top-left {
+  margin-bottom: 300px;
+  text-align: center;
+  color: white;
+  font-size: 30px ;
+  font-style: italic;
+  font-family: 'Lora';
+}
+
+
+
+
 #texthere {
   
   padding: 50px;
   background-color: #116466;
   color: #D1E8E2;
 }
+
+#texthere h2 {
+  font-family: 'Lora', serif;
+}
+
 h4 {
   font-family: 'Lora', serif;
   text-align: center;
@@ -402,6 +419,7 @@ h5 {
   }
 
 
+
 }
 
 /********** Extra small devices only **********/
@@ -462,6 +480,10 @@ h5 {
   }
   /* End Header */
   
+  #texthere h2{
+    font-size: 30px ;
+  }
+
   /* Home page */
   #aboutus-tile, #contact-tile,#team-tile, #dev1-tile, #dev2-tile, #dev3-tile{
     width: 280px;
@@ -483,6 +505,11 @@ h5 {
 .panel-footer div.row {
   margin-bottom: 35px;
 }
+/*.top-left {
+  position: relative;
+  top: 8px;
+  left: 16px;
+}*/
 
 
 
