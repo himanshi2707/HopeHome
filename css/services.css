@@ -1,0 +1,77 @@
+.wrapper {
+   width: 900px;
+   margin: 0 auto;
+   font-family: lato;
+   margin-top: 50px;
+  }
+
+.allsections div{
+  display: inline-flex;
+}
+#service-tiles p {
+  color: #695F69;
+  text-align: center;
+}
+
+#service-tiles img {
+  margin-top: 20px;
+   height: 250px;
+  width: 100%;
+  margin-bottom: 5px;
+  position: relative;
+  border: 2px solid #695F69;
+  overflow: hidden;
+}
+
+div p a:hover {
+  color: #695F69;
+}
+
+#service-tiles img:hover {
+   box-shadow: 0 2px 6px 2px #695F69;
+}
+
+ .service-tiles{
+   width: 50%;
+   margin: 0 auto;
+   text-align: center;
+   margin-bottom: 70px;
+   }
+
+.container p{
+    line-height: 25px;
+    color: #695F69;
+    text-align: center;
+    }
+.section-1{
+    width: 290px;
+    float: left;
+    margin-right: 10px;
+    }
+.section-1 img{
+     width: 100%;
+    }
+.yellow-color {
+     color: #695F69;
+     text-align: center;
+     }
+.section-1 img: hover {
+    border: 2px solid #fcba03;
+  }
+
+@media (max-width: 767px)
+{
+    h3 {
+      font-size: 20px; 
+    }
+}
+
+@media (max-width: 479px)
+{
+    h3 {
+      font-size: 15px;
+    }
+    #service-tiles a {
+      font-size: 10px;
+    }
+}

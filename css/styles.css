@@ -256,7 +256,7 @@ h5 {
   overflow: hidden;
 }
 #aboutus-tile:hover, #contact-tile:hover, #team-tile:hover {
-  box-shadow: 0 1px 5px 1px #cccccc;
+  box-shadow: 0 1px 5px 1px #695F69;
 }
 
 #aboutus-tile {
