@@ -1,12 +1,17 @@
 body {
   font-size: 16px;
   color: #FFCB9A ;
-  background-color: #2C3531 ;
+  background-color: #D3E8DF ;
   font-family: 'Oxygen', sans-serif;
 }
+hr{
+        height: 1px;
+        background-color: #695F69;
+        border: none;
+    }
 
 #header-nav {
-  background-color: #116466;
+  background-color: #695F69;
   border-radius: 0;
   border: 0;
 }
@@ -15,6 +20,10 @@ body {
   width: 150px;
   height: 150px;
   margin: 10px 15px 10px 0;
+}
+
+.containermain {
+  background-color: #695F69;
 }
 
 
@@ -47,7 +56,7 @@ a:hover{
   margin-top:10px;
   margin-bottom: 25px;
   font-size: 15px;
-  color: #D1E8E2;
+  color: #695F69;
   text-align: justify;
 }
 
@@ -57,7 +66,7 @@ a:hover{
   height: 50px;
   margin: 20px;
   margin-bottom: 25px;
-  border: 2px solid #116466;
+  border: 2px solid #695F69;
 
 }
 
@@ -71,7 +80,7 @@ a:hover{
   height: 50px;
   margin: 20px;
   margin-bottom: 25px;
-  border: 2px solid #116466;
+  border: 2px solid #695F69;
 }
 
 #instagram-img {
@@ -80,7 +89,7 @@ a:hover{
   height: 50px;
   margin: 20px;
   margin-bottom: 25px;
-  border: 2px solid #116466;
+  border: 2px solid #695F69;
 
 }
 
@@ -90,14 +99,14 @@ a:hover{
   height: 50px;
   margin: 20px;
   margin-bottom: 25px;
-  border: 2px solid #116466;
+  border: 2px solid #695F69;
 }
 .navbar-brand {
   padding-top: 25px;
 }
 .navbar-brand h1 { 
   font-family: 'Lora', serif;
-  color: #FFCB9A;
+  color: #FBF1E7;
   font-size: 2.2em;
   text-transform: uppercase;
   font-weight: bold;
@@ -132,7 +141,7 @@ a:hover{
 }
 
 #nav-list a {
-  color: #FFCB9A;
+  color: #FBF1E7;
   text-align: center;
 
 }
@@ -189,7 +198,7 @@ a:hover{
 #texthere {
   
   padding: 50px;
-  background-color: #116466;
+  background-color: #695F69;
   color: #D1E8E2;
 }
 
@@ -201,13 +210,13 @@ h4 {
   font-family: 'Lora', serif;
   text-align: center;
   font-size: 40px;
-  color: #FFCB9A;
+  color: #695F69;
 
 }
 h2 {
   font-size: 40px;
   text-align: center;
-  color: #FFCB9A;
+  color: #FBF1E7;
   
 }
 
@@ -218,10 +227,11 @@ h3 {
 h5 {
   text-align: center;
   margin-bottom: 25px;
+  color: #695F69;
 }
 #aboutcontent {
   padding: 50px;
-  background-color: #116466;
+  background-color: #695F69;
   color: #D1E8E2;
 }
 
@@ -233,7 +243,7 @@ h5 {
   width: 100%;
   margin-bottom: 15px;
   position: relative;
-  border: 2px solid #116466;
+  border: 2px solid #695F69;
   overflow: hidden;
 }
 
@@ -242,7 +252,7 @@ h5 {
   width: 100%;
   margin-bottom: 15px;
   position: relative;
-  border: 3px solid #116466;
+  border: 3px solid #695F69;
   overflow: hidden;
 }
 #aboutus-tile:hover, #contact-tile:hover, #team-tile:hover {
@@ -287,7 +297,7 @@ h5 {
   text-align: center;
   font-size: 1.6em;
   text-transform: uppercase;
-  background-color: #116466;
+  background-color: #695F69;
   color: #D1E8E2;
   box-sizing: border-box;
 }
@@ -498,8 +508,9 @@ h5 {
   margin-top: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #116466;
+  background-color: #695F69;
   border-top: 0;
+  color: #D3E8DF;
 }
 .panel-footer div.row {
   margin-bottom: 35px;
