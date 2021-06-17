@@ -27,6 +27,33 @@ div p a:hover {
   color: #695F69;
 }
 
+h5 {
+  font-family: 'Lora', serif;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+div {
+  color: #695F69;
+}
+
+#l{
+  color: #695F69;
+  text-align: center;
+  font-family: 'Lora', serif;
+  font-weight: bold;
+  font-size: 16.5px;
+}
+
+#k {
+
+  display: inline;
+  text-align: justify;
+  font-family: 'Lora', serif;
+  font-weight: bold;
+  font-size: 16.5px;
+}
+
 #service-tiles img:hover {
    box-shadow: 0 2px 6px 2px #695F69;
 }
@@ -58,6 +85,31 @@ div p a:hover {
 .section-1 img: hover {
     border: 2px solid #fcba03;
   }
+
+
+.btndiv{
+  text-align: center;
+
+}
+.button {
+  margin: auto;
+  background-color: #4CAF50; /* Green */
+  border: 2px solid #fff;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  
+  display: grid;
+  font-size: 16px;
+  border-radius: 12px;
+  
+}
+
+.button:hover {
+  background-color: #fff; /* Green */
+  color: #4CAF50;
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
 
 @media (max-width: 767px)
 {

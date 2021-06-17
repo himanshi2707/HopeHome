@@ -16,9 +16,9 @@ hr{
   border: 0;
 }
 #logo-img {
-  background: url('../images/Final LOGO PNG Format.png') no-repeat;
-  width: 150px;
-  height: 150px;
+  background: url('../images/logo.png') no-repeat;
+  width: 125px;
+  height: 125px;
   margin: 10px 15px 10px 0;
 }
 
@@ -389,7 +389,7 @@ h5 {
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
   #logo-img {
-    background: url('../images/logomedium.png') no-repeat;
+    background: url('../images/logom.jpg') no-repeat;
     width: 100px;
     height: 100px;
     margin: 5px 5px 5px 0;
@@ -406,7 +406,13 @@ h5 {
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  
+  #logo-img {
+    background: url('../images/logos.jpg') no-repeat;
+    width: 75px;
+    height: 75px;
+    margin: 5px 5px 5px 0;
+  }
+
    .navbar-brand {
     padding-top: 10px;
     height: 80px;
@@ -433,6 +439,15 @@ h5 {
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
+#logo-img {
+
+    background: url('../images/logoxs.jpg') no-repeat;
+    width: 50px;
+    height: 50px;
+    margin-top:10px;
+    margin-left: 15px;
+  }
+
   .navbar-brand {
     padding-top: 10px;
     height: 80px;
