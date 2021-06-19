@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HopeHome</title>
+    <script src="https://www.momentcrm.com/embed"></script>
+<script>
+  MomentCRM('init', {
+    'teamId': 'hopehomechat',
+    'doChat': true,
+    'doTracking': true,
+  });
+</script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="login.css">
+<link rel="stylesheet" href="css/styles.css">
+
+<link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+
+<header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+         <div class="navbar-header">
+          <a href ="index.html" class="pull-left " >
+            <div id="logo-img" alt="Logo image"></div>
+          </a>
+         
+         <div class="navbar-brand">
+            <a href="index.html"><h1>HopeHome</h1></a>
+            <p>
+              <span class="glyphicon glyphicon-education"></span>
+              <span>By IIIT Bhopal</span>
+            </p>
+          </div>
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+      </div>
+
+      <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+             <li id="navHomeButton">
+              <a href="index.html">
+                <span class="glyphicon glyphicon-home"></span><br class="hidden-xs"> Home</a>
+            </li>  
+            <li>
+              <a href="services.html" onclick="">
+                <span class="glyphicon glyphicon-heart"></span><br class="hidden-xs"> Services</a>
+              </li>    
+            <li id="navMenuButton">
+
+              <a href="contactus.html" onclick="">
+                <span class="glyphicon glyphicon-envelope"></span><br class="hidden-xs"> Contact Us</a>
+            </li>
+            <li>
+              <a href="aboutus.html">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
+            </li>
+            <li class="active">
+              <a href="login.html">
+                <span class="glyphicon glyphicon-log-in"></span><br class="hidden-xs"> Login/SignUp</a>
+            </li>
+            <li>
+              <a href="achievements.html">
+                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Achievements</a>
+            </li>
+          </ul>
+        </div> 
+      </div>
+    </nav>
+  </header>  
+
+
+
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+<button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Signup</button>
+<!-- Login -->
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="action_page.php" method="POST">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="images.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div >
+      <label style="color: #171717" for="uname"><b>Username</b></label>
+      <input style="color: #171717" type="text" placeholder="Enter Username" name="uname" required>
+
+      <label style="color: #171717" for="psw"><b>Password</b></label>
+      <input style="color: #171717" type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button><br>
+      <label style="color: #171717">
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+    <span class="psw"><a style="color: #00008B" href="#">Forgot password?</a></span>
+<br>
+    <div id="cancont" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      
+      
+    </div>
+  </form>
+</div>
+<!-- Signup -->
+<div id="id02" class="modal">
+    <form class="modal-content" action="/action_page.php" method="POST">
+     
+     
+        <div class="imgcontainer">
+        <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+         <img src="images.png" alt="Avatar" class="avatar">
+        </div>
+    
+      <div >
+       
+        <label style="color: #171717" for="email"><b>Email</b></label>
+        <input style="color: #171717" type="text" placeholder="Enter Email" name="email" required>
+  
+        <label style="color: #171717" for="psw"><b>Password</b></label>
+        <input style="color: #171717" type="password" placeholder="Enter Password" name="psw" required>
+  
+        <label style="color: #171717" for="psw-repeat"><b>Repeat Password</b></label>
+        <input style="color: #171717" type="password" placeholder="Repeat Password" name="psw-repeat" required>
+        <button type="submit" class="signupbtn">Sign Up</button><br>
+        <label style="color: #171717">
+          <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+        </label>
+  
+        <p style="color: #171717">By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+  
+        <div class="clearfix">
+          <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+          
+        </div>
+      </div>
+    </form>
+  </div>
+  
+
+<script src="login.js"></script>
+
+<footer class="panel-footer">
+  <div class="container">
+
+    <div class="text-center">&copy; HopeHome 2021</div>
+
+  </div>
+</footer>
+
+</body>
+</html>

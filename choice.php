@@ -1,4 +1,17 @@
-<!doctype html>
+<?php 
+if(isset($_SESSION['loggedin']) && $_SESSION['loggedin']==true){
+  $loggedin= true;
+}
+else{
+  $loggedin = false;
+}
+
+?>
+
+
+
+
+
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -17,6 +30,10 @@
     'doTracking': true,
   });
 </script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="login.css">
+<link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
    
@@ -48,12 +65,12 @@
              <li id="navHomeButton">
               <a href="index.html">
                 <span class="glyphicon glyphicon-home"></span><br class="hidden-xs"> Home</a>
-            </li>     
+            </li>       
             <li class="">
               <a href="services.html" onclick="">
                 <span class="glyphicon glyphicon-heart"></span><br class="hidden-xs"> Services</a>
-              </li>         
-            <li id="navMenuButton" class="active">
+              </li>       
+            <li id="navMenuButton">
               <a href="contactus.html" onclick="">
                 <span class="glyphicon glyphicon-envelope"></span><br class="hidden-xs"> Contact Us</a>
             </li>
@@ -61,11 +78,11 @@
               <a href="aboutus.html">
                 <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
             </li>
-            <li>
-              <a href="/choice.php">
+            <li class="active">
+              <a href="login.html">
                 <span class="glyphicon glyphicon-log-in"></span><br class="hidden-xs"> Login/SignUp</a>
             </li>
-            <li>
+            <li >
               <a href="achievements.html">
                 <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Achievements</a>
             </li>
@@ -75,61 +92,25 @@
     </nav>
   </header>
   
- <div id="main-content" class="container">
-    <h4 id="Aboutus-title" class="text-center">CONTACT US</h4>
-    <hr>
-    <div class="containermain">
-    <div class="container2">
-      <div class="image" id="email-img">
-        
-      </div>
-      <div class="text"><br>
-        <a href = "mailto: himanshi9may2000@gmail.com" target="_blank">himanshi9may2000@gmail.com</a>
-      </div>
-    </div>
-
-    <br>
-
-    <div class="container2">
-      <div class="image" id="whatsapp-img">
-        
-      </div>
-      <div class="text"><br>
-
-        <a href="tel:+917017955943">+91-7017955943</a>
-      </div>
-    </div>
-    
-    <br>
-     
-    <div class="container2">
-      <div class="image" id="instagram-img">
-        
-      </div>
-      <div class="text"><br>
-        <a href="https://instagram.com/instagram" target="_blank">instagramid</a>
-      </div>
-    </div>
-
-    <br>
-
-    <div class="container2">
-      <div class="image" id="location-img">
-        
-      </div>
-      <div class="text">
-        Maulana Azad National Institute of Technology,<br>Bhopal<br> Room No TC-105,<br>New Teaching Block,<br>MANIT, Bhopal, MP, India Pin code : 462003
-      </div>
-    </div>
-  </div>
-<hr>
-
-</div>
-
-
-
-
   <!--End of main content-->
+<?php
+
+      if(!$loggedin){
+      echo '
+         
+  <button style="width:auto;"><a href="login.php">Login</a></button>
+<button style="width:auto;"><a href="signup.php">Signup</a></button>
+      ';
+      }
+      if($loggedin){
+      echo '
+        <button style="width:auto;"><a href="logout.php">Logout</a></button>
+
+      ';
+    }
+       
+      ?>
+  
 
 <footer class="panel-footer">
   <div class="container">
@@ -150,5 +131,4 @@
   <script src="js/script.js"></script>
 </body>
 </html>
-
 

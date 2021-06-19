@@ -1,30 +1,33 @@
+<?php
+session_start();
+
+if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
+    header("location: login.php");
+    exit;
+}
+
+?>
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>HopeHome</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Welcome - <?php $_SESSION['username']?></title>
+
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
-    <script src="https://www.momentcrm.com/embed"></script>
-<script>
-  MomentCRM('init', {
-    'teamId': 'hopehomechat',
-    'doChat': true,
-    'doTracking': true,
-  });
-</script>
+<link rel="stylesheet" href="login.css">
+<link rel="stylesheet" href="css/styles.css">
+
   </head>
   <body>
-   
-   <header>
+
+
+    <header>
     <nav id="header-nav" class="navbar navbar-default">
       <div class="container">
          <div class="navbar-header">
-          <a href ="index.html" class="pull-left" >
+          <a href ="index.html" class="pull-left " >
             <div id="logo-img" alt="Logo image"></div>
           </a>
          
@@ -45,15 +48,16 @@
 
       <div id="collapsable-nav" class="collapse navbar-collapse">
            <ul id="nav-list" class="nav navbar-nav navbar-right">
-             <li id="navHomeButton">
+             <li id="navHomeButton" class="visible-xs active">
               <a href="index.html">
-                <span class="glyphicon glyphicon-home"></span><br class="hidden-xs"> Home</a>
-            </li>       
-            <li class="">
+                <span class="glyphicon glyphicon-home"></span> Home</a>
+            </li>  
+            <li>
               <a href="services.html" onclick="">
                 <span class="glyphicon glyphicon-heart"></span><br class="hidden-xs"> Services</a>
-              </li>       
+              </li>    
             <li id="navMenuButton">
+
               <a href="contactus.html" onclick="">
                 <span class="glyphicon glyphicon-envelope"></span><br class="hidden-xs"> Contact Us</a>
             </li>
@@ -65,7 +69,7 @@
               <a href="choice.php">
                 <span class="glyphicon glyphicon-log-in"></span><br class="hidden-xs"> Login/SignUp</a>
             </li>
-            <li class="active">
+            <li>
               <a href="achievements.html">
                 <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Achievements</a>
             </li>
@@ -74,26 +78,31 @@
       </div>
     </nav>
   </header>
-  
-  <!--End of main content-->
 
-<footer class="panel-footer">
+
+    <?php require 'partials/_nav.php' ?>
+    
+    <div class="container my-3">
+    <div class="alert alert-success" role="alert">
+      <h4 class="alert-heading">Welcome - <?php echo $_SESSION['username']?></h4>
+      <p>Hey how are you doing? Welcome to HopeHome. You are logged in as <?php echo $_SESSION['username']?>. Enter some more interesting text here for the user interest.</p>
+      <hr>
+      <p class="mb-0">Whenever you need to, be sure to logout <a href="/webs/logout.php"> using this link.</a></p>
+    </div>
+  </div>
+    <!-- Optional JavaScript -->
+
+
+    <footer class="panel-footer">
   <div class="container">
 
     <div class="text-center">&copy; HopeHome 2021</div>
 
   </div>
 </footer>
-
-
-
-
-
-
-  <script src="js/jquery-2.1.4.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/ajax-utils.js"></script>
-  <script src="js/script.js"></script>
-</body>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
 </html>
-
