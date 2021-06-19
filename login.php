@@ -88,7 +88,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
               <a href="aboutus.html">
                 <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
             </li>
-            <li>
+            <li class="active">
               <a href="choice.php">
                 <span class="glyphicon glyphicon-log-in"></span><br class="hidden-xs"> Login/SignUp</a>
             </li>

@@ -65,7 +65,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
               <a href="aboutus.html">
                 <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
             </li>
-            <li>
+            <li class="active">
               <a href="choice.php">
                 <span class="glyphicon glyphicon-log-in"></span><br class="hidden-xs"> Login/SignUp</a>
             </li>
@@ -84,7 +84,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
     
     <div class="container my-3">
     <div class="alert alert-success" role="alert">
-      <h4 class="alert-heading">Welcome - <?php echo $_SESSION['username']?></h4>
+      <h4 class="alert-heading">Welcome - <?php echo $_SESSION['username']?></h4><br>
       <p>Hey how are you doing? Welcome to HopeHome. You are logged in as <?php echo $_SESSION['username']?>. Enter some more interesting text here for the user interest.</p>
       <hr>
       <p class="mb-0">Whenever you need to, be sure to logout <a href="/webs/logout.php"> using this link.</a></p>
