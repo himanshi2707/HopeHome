@@ -491,10 +491,12 @@ h5 {
   padding-bottom: 20px;
   background-color: #695F69;
   border-top: 0;
-  color: #D3E8DF;
+  color: #FBF1E7;
+  text-align: center;
 }
 .panel-footer div.row {
   margin-bottom: 35px;
+  text-align: center;
 }
 /*.top-left {
   position: relative;

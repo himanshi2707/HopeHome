@@ -71,9 +71,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
       <div id="collapsable-nav" class="collapse navbar-collapse">
            <ul id="nav-list" class="nav navbar-nav navbar-right">
-             <li id="navHomeButton" class="visible-xs active">
+              <li id="navHomeButton">
               <a href="index.html">
-                <span class="glyphicon glyphicon-home"></span> Home</a>
+                <span class="glyphicon glyphicon-home"></span><br class="hidden-xs"> Home</a>
             </li>  
             <li>
               <a href="services.html" onclick="">
@@ -93,8 +93,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 <span class="glyphicon glyphicon-log-in"></span><br class="hidden-xs"> Login/SignUp</a>
             </li>
             <li>
-              <a href="achievements.html">
-                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Achievements</a>
+              <a href="/webs/tests.html">
+                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Self Assessment Test</a>
             </li>
           </ul>
         </div> 
@@ -140,7 +140,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         <label style="color: #171717">
         <input type="checkbox" checked="checked" name="remember"> Remember me
       </label><br>
-      <span class="psw"><a style="color: #00008B" href="#">Forgot password?</a></span>
+      <span class="psw"><a style="color: #00008B" href="#">Forgot password?</a></span><br>
+      <span style="color:#171717;" >Do not have an account ? Create one <a style="color:#00008B;" href=signup.php >SignUp </a></span>
 <br>
      </form>
     </div>

@@ -7,8 +7,11 @@ text-align: center;}
 }
 
 
-#alert {
+#alertstop {
   background-color: #f44336;
+}
+#alertgo {
+  
 }
 
 /* Full-width input fields */

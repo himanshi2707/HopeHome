@@ -8,7 +8,7 @@ else{
 echo '<nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">HopeHome</a>
+      <a class="navbar-brand" href="#"></a>
     </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="/webs/index.html">Home</a></li>

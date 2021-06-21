@@ -1,26 +1,20 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>HopeHome</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
-    <script src="https://www.momentcrm.com/embed"></script>
-<script>
-  MomentCRM('init', {
-    'teamId': 'hopehomechat',
-    'doChat': true,
-    'doTracking': true,
-  });
-</script>
+    <link rel="stylesheet" href="tests.css" />
   </head>
   <body>
-   
-   <header>
+
+
+    <header>
     <nav id="header-nav" class="navbar navbar-default">
       <div class="container">
          <div class="navbar-header">
@@ -48,16 +42,16 @@
              <li id="navHomeButton">
               <a href="index.html">
                 <span class="glyphicon glyphicon-home"></span><br class="hidden-xs"> Home</a>
-            </li>     
+            </li>       
             <li class="">
               <a href="services.html" onclick="">
                 <span class="glyphicon glyphicon-heart"></span><br class="hidden-xs"> Services</a>
-              </li>         
+              </li>       
             <li id="navMenuButton">
               <a href="contactus.html" onclick="">
                 <span class="glyphicon glyphicon-envelope"></span><br class="hidden-xs"> Contact Us</a>
             </li>
-            <li class="active">
+            <li>
               <a href="aboutus.html">
                 <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
             </li>
@@ -65,7 +59,7 @@
               <a href="/webs/choice.php">
                 <span class="glyphicon glyphicon-log-in"></span><br class="hidden-xs"> Login/SignUp</a>
             </li>
-            <li >
+            <li class="active">
               <a href="/webs/tests.html">
                 <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Self Assessment Test</a>
             </li>
@@ -75,33 +69,61 @@
     </nav>
   </header>
   
-  <div id="main-content" class="container">
-    <h4 id="Aboutus-title" class="text-center">ABOUT US</h4>
-    <hr>
-    <div id="aboutcontent" class="container">
-    <h3>We are a team of students from Indian Institute of Information Technology, Bhopal(an institute of National Importance) motivated towards helping people who are suffering from various kinds of life issues which almost everyone faces at some point in their life. <br> <br>We here at HopeHome are always there beside you just like a best friend in times of need. Share your issues with us anonymously and get free help.</h3>
-  </div>
-<hr>
-  </div><!--End of main content-->
+   <br>
+   <br>
 
-<footer class="panel-footer">
+    <section>
+      <h2 class="texttest">HERE ARE SOME TESTS THAT HELP YOU DISCOVER YOURSELF</h2>
+      <hr />
+      <div class="containertest">
+        <div class="boxtest">
+            <a href="anxiety.html">       
+
+                <img id="well" src="/webs/images/anxiety.png" alt="" />
+            </a>
+                <h2 class="secondarytest">ANXIETY TEST</h2>
+          <p>
+            Anxiety is an emotion of dread, fear and worry that something will
+            go wrong. Have you been feeling particulary anxious. Why not check
+            it?
+          </p>
+        </div>
+        <div class="boxtest">
+        <a href="emotional.html">
+            
+            <img id="well" src="/webs/images/well.jpg" alt="" />
+        </a>
+          <h2 class="secondarytest">EMOTIONAL WELLNESS TEST FOR STUDENTS</h2>
+          <p>
+            As a student, you would agree that tests are a major
+            stress-inducers.. Here's atest that won't stress you but will tell you just how stressed you
+            are.
+          </p>
+        </div>
+        <div class="boxtest">
+          <a href="new.html">
+            
+            <img id="well" src="/webs/images/new.png" alt="" />
+          </a>
+          <h2 class="secondarytest">ATTITUDE TOWARDS LIFE TEST</h2>
+          <p>
+            Are you an optimist or a pessimist? Do you see the glass as
+            half-full or half-empty? These are the kind of questions that define
+            our perspective on life.
+          </p>
+       
+        
+      </div>
+    </section>
+
+    <footer class="panel-footer">
   <div class="container">
 
-    <div class="text-center">&copy; HopeHome 2021</div>
+    <div class="text-center" style="text-align: center;">&copy; HopeHome 2021</div>
 
   </div>
 </footer>
 
 
-
-
-
-
-  <script src="js/jquery-2.1.4.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/ajax-utils.js"></script>
-  <script src="js/script.js"></script>
-</body>
+  </body>
 </html>
-
-

@@ -79,12 +79,12 @@ else{
                 <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
             </li>
             <li class="active">
-              <a href="login.html">
+              <a href="choice.php">
                 <span class="glyphicon glyphicon-log-in"></span><br class="hidden-xs"> Login/SignUp</a>
             </li>
             <li >
-              <a href="achievements.html">
-                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Achievements</a>
+              <a href="/webs/tests.html">
+                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Self Assessment Test</a>
             </li>
           </ul>
         </div> 
